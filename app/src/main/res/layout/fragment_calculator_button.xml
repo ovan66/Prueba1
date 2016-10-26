@@ -2,15 +2,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="cl.bastian.prueba1.CalculatorButton">
+    tools:context="cl.bastian.prueba1.view.CalcButtonFragment">
 
     <Button
         android:text="Cuenta total"
         android:theme="@style/AccentButton"
         android:id="@+id/calculatorBtn"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="wrap_content" />
 
-        />
 
 </RelativeLayout>
