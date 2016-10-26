@@ -10,4 +10,25 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="cl.bastian.prueba1.CalculatorActivity">
 
+    <EditText
+        android:id="@+id/IncominTxt"
+        android:layout_above="@+id/reinversmenTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresos del día" />
+
+    <EditText
+        android:id="@+id/reinversmenTxt"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gastos del día"/>
+
+    <Button
+        android:layout_below="@+id/reinversmenTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
 </RelativeLayout>
