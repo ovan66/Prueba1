@@ -19,6 +19,12 @@ public class CalcButtonFragment extends Fragment {
         // Required empty public constructor
     }
 
+    @Nullable
+    @Override
+    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.fragment_calculator_button, container, false);
+    }
+
 
 }
 
