@@ -24,11 +24,14 @@
         android:layout_height="wrap_content"
         android:hint="Gastos del día"/>
 
-    <Button
-        android:layout_below="@+id/reinversmenTxt"
+    <fragment
+        android:id="@+id/calculatorBtn"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        />
+        android:layout_height="match_parent"
+        android:name="cl.bastian.prueba1.CalculatorButton"
+        android:layout_below="@+id/reinversmenTxt"
+        tools:layout="@layout/fragment_calculator_button">
 
+    </fragment>
 
 </RelativeLayout>
